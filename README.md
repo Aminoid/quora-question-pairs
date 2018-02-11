@@ -1,5 +1,5 @@
 ## Quora Question Pairs
-Kaggle competition 
+Kaggle competition
 
 ## Files
 main.py         -- Code to implement all the models
@@ -12,7 +12,7 @@ https://www.kaggle.com/c/quora-question-pairs/data
 numpy, sklearn, pandas, nltk, csv, re
 
 ## How to run
-python main.py <jaccard|cosine|tfidf|logistic|naivebayes|randomforest|voting>
+`python main.py <jaccard|cosine|tfidf|logistic|naivebayes|randomforest|voting>`
 
 ## Individual Classifiers
 * Jaccard Similarity
@@ -30,4 +30,3 @@ Note: The voting ensemble takes a huge amount of time to train
 
 ## Results
 log-loss value of: **0.40167** with Probabilistic Voting Ensemble. (Still improving it)
-
